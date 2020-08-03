@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/learningreact/static/css/main.82e55d46.chunk.css",
-    "main.js": "/learningreact/static/js/main.762f998b.chunk.js",
-    "main.js.map": "/learningreact/static/js/main.762f998b.chunk.js.map",
-    "runtime-main.js": "/learningreact/static/js/runtime-main.07491371.js",
-    "runtime-main.js.map": "/learningreact/static/js/runtime-main.07491371.js.map",
-    "static/js/2.1284ddab.chunk.js": "/learningreact/static/js/2.1284ddab.chunk.js",
-    "static/js/2.1284ddab.chunk.js.map": "/learningreact/static/js/2.1284ddab.chunk.js.map",
-    "index.html": "/learningreact/index.html",
-    "precache-manifest.ce60efc7d1c6b877319e3d0d99e0c5cf.js": "/learningreact/precache-manifest.ce60efc7d1c6b877319e3d0d99e0c5cf.js",
-    "service-worker.js": "/learningreact/service-worker.js",
-    "static/css/main.82e55d46.chunk.css.map": "/learningreact/static/css/main.82e55d46.chunk.css.map",
-    "static/js/2.1284ddab.chunk.js.LICENSE.txt": "/learningreact/static/js/2.1284ddab.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/learningreact/static/media/logo.5d5d9eef.svg"
+    "main.css": "/movie-app/static/css/main.82e55d46.chunk.css",
+    "main.js": "/movie-app/static/js/main.8ec55645.chunk.js",
+    "main.js.map": "/movie-app/static/js/main.8ec55645.chunk.js.map",
+    "runtime-main.js": "/movie-app/static/js/runtime-main.85ad0f9f.js",
+    "runtime-main.js.map": "/movie-app/static/js/runtime-main.85ad0f9f.js.map",
+    "static/js/2.1284ddab.chunk.js": "/movie-app/static/js/2.1284ddab.chunk.js",
+    "static/js/2.1284ddab.chunk.js.map": "/movie-app/static/js/2.1284ddab.chunk.js.map",
+    "index.html": "/movie-app/index.html",
+    "precache-manifest.bd43161ac810793293c4fa9a812c48be.js": "/movie-app/precache-manifest.bd43161ac810793293c4fa9a812c48be.js",
+    "service-worker.js": "/movie-app/service-worker.js",
+    "static/css/main.82e55d46.chunk.css.map": "/movie-app/static/css/main.82e55d46.chunk.css.map",
+    "static/js/2.1284ddab.chunk.js.LICENSE.txt": "/movie-app/static/js/2.1284ddab.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/movie-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.07491371.js",
+    "static/js/runtime-main.85ad0f9f.js",
     "static/js/2.1284ddab.chunk.js",
     "static/css/main.82e55d46.chunk.css",
-    "static/js/main.762f998b.chunk.js"
+    "static/js/main.8ec55645.chunk.js"
   ]
 }
