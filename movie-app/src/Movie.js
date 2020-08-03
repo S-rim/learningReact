@@ -11,7 +11,7 @@ const Movie = ({year,title,summary,poster, genres = []}) => {
             <h3 className="movie-title">{title}</h3>
             <h5 className="movie-year">{year}</h5>
         <ul className="genres">{genres.map((genre, index) => (<li key={index} className="genres-genre">{index}{genre}</li>))}</ul>
-            <p className="movie-summary">{summary}</p>
+            <p className="movie-summary">{summary.slice(0,140)}</p>
         </div>
     </div>)
 };
