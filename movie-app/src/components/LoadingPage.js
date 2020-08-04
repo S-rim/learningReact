@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './logo.svg'
+import Logo from '../logo.svg'
 import './LoadingPage.css';
 
 const LoadingPage = () => {
