@@ -4,7 +4,7 @@ import "./Navigation.css"
 
 const Navigation = () => {
     return (
-        <div>
+        <div className="nav">
             <button className="router-button"><Link to="/">Home</Link></button>
             <button className="router-button"><Link to="/about">About</Link></button>
         </div>
