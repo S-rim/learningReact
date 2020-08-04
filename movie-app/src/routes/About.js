@@ -1,9 +1,11 @@
 import React from 'react';
+import Logo from '../logo.svg'
 
 const About = () => {
     return (
         <div>
-            <h1>hi</h1>
+            <img src={Logo}></img>
+            <h1>Welcome to React movie app</h1>
         </div>
     );
 };

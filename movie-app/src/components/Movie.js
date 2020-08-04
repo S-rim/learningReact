@@ -1,19 +1,27 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 import "./Movie.css"
 
-const Movie = ({year,title,summary,poster, genres = []}) => {
+const Movie = ({id, year,title,summary,poster, genres = []}) => {
     
-    return (<div className="movie">
-        <label htmlFor=""></label>
-        <img src={poster} alt={title}></img>
-        <div className="movie-data">
-            <h3 className="movie-title">{title}</h3>
-            <h5 className="movie-year">{year}</h5>
-        <ul className="genres">{genres.map((genre, index) => (<li key={index} className="genres-genre">{index}{genre}</li>))}</ul>
-            <p className="movie-summary">{summary.slice(0,140)}</p>
+    return (<Link to={{
+        pathname : `/movie/${id}`,
+        state : {
+            year, title, summary, poster, genres
+        }
+    }}>
+        <div className="movie">
+            <label htmlFor=""></label>
+            <img src={poster} alt={title}></img>
+            <div className="movie-data">
+                <h3 className="movie-title">{title}</h3>
+                <h5 className="movie-year">{year}</h5>
+            <ul className="genres">{genres.map((genre, index) => (<li key={index} className="genres-genre">{index}{genre}</li>))}</ul>
+                <p className="movie-summary">{summary.slice(0,140)}</p>
+            </div>
         </div>
-    </div>)
+    </Link>)
 };
 
 Movie.propTypes = {
