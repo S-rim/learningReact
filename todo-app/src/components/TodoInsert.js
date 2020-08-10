@@ -10,10 +10,13 @@ const TodoInsert = ({onInsert}) => {
     }, []);
 
     const onSubmit = useCallback(e => {
-        onInsert(value);
-        setValue('')
+        if(value != '')
+        {
+            onInsert(value);
+            setValue('')
 
-        e.preventDefault('');
+            e.preventDefault('');
+        }
     },
     [onInsert, value],
     );
