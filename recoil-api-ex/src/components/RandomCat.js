@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilValueLoadable } from "recoil";
-import { randomCat } from "../store/state";
+import { randomCat } from "../state";
 
 const RandomCat = () => {
   const photoUrl = useRecoilValueLoadable(randomCat);
